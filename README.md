@@ -17,6 +17,7 @@ after nothing error run
 
 node war.js
 
+<img src="./img/ssi.png" alt="WhatsNewFeed Recording" width="700"/>
 
 
 thanks for : https://github.com/pedroslopez/whatsapp-web.js/releases/tag/v1.17.0
