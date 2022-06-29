@@ -16,7 +16,7 @@ const client = new Client({
         executablePath: '/bin/chromium',
     },
 	authStrategy: new LocalAuth({
-		clientId: "client-9098"
+		clientId: "client-1029"
 	}),
 }); 
 client.on('qr', (qr) => {
@@ -121,7 +121,7 @@ client.on('message', async msg => {
 		  var cp = `${contact.number}`
 		  var it = (msg.body.slice(5))
 		  let options = {stdio : 'pipe' };
-		  let stdout = execSync(`/home/clonerxyz/yt-dlp -S "res:144" --extract-audio --audio-format mp3 -o ${contact.number}y.mp3 --max-filesize 26121471 --force-overwrites ` + it + `` , options);
+		  let stdout = execSync(`/home/xxxx/yt-dlp -S "res:144" --extract-audio --audio-format mp3 -o ${contact.number}y.mp3 --max-filesize 26121471 --force-overwrites ` + it + `` , options);
 		  chat.sendStateTyping();
 		  const media = MessageMedia.fromFilePath(`${contact.number}y.mp3`);
 		  chat.sendMessage(`download done ${media.data.length}`);
@@ -147,7 +147,7 @@ client.on('message', async msg => {
 		  var cp = `${contact.number}`
 		  var it = (msg.body.slice(3))
 		  let options = {stdio : 'pipe' };
-		  let stdout = execSync(`/home/clonerxyz/yt-dlp -f "(mp4)[height<480]" -o ${contact.number}.mp4 --max-filesize 26121471 --force-overwrites ` + it + `` , options);
+		  let stdout = execSync(`/home/xxxx/yt-dlp -f "(mp4)[height<480]" -o ${contact.number}.mp4 --max-filesize 26121471 --force-overwrites ` + it + `` , options);
 		  chat.sendStateTyping();
 		  const media = MessageMedia.fromFilePath(`${contact.number}.mp4`);
 		  chat.sendMessage(`download done ${media.data.length}`);
