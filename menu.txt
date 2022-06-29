@@ -1,0 +1,13 @@
+*########MENU######### PATCH 0.0.2* 
+> *translate*
+    tle(translate auto ke english) ex : tle aku sayang kamu 
+    tlj(translate auto ke jp) ex : tlj aku sayang kamu 
+    tid(translate auto ke indo) ex : tid i need a prove
+> *stiker sent*
+    strd (for show doujin)
+    sts on caption
+    vn (for hear eargsm )
+    spk (text) ex : spk anooo
+> *youtube downloader*
+	yt https://www.youtube.com/watch?v=xcXLL1L-ncA
+	ymp3 https://www.youtube.com/watch?v=xcXLL1L-ncA
