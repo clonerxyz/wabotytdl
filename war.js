@@ -44,7 +44,7 @@ client.on('message', async msg => {
 	if (msg.body === '1') {
 		const chat = await msg.getChat();
 		const contact = await msg.getContact();
-		if (`${contact.number}` === '6282246901096'){
+		if (`${contact.number}` === '628xxxxxxxxx'){
 			chat.sendStateTyping();
 			chat.sendMessage(`Hallo gosujin sama @${contact.number} ^_^`, {
 				mentions: [contact]
@@ -62,7 +62,7 @@ client.on('message', async msg => {
 	else if (msg.body.startsWith('Beb') || msg.body.startsWith('beb')) {
 		const chat = await msg.getChat();
 		const contact = await msg.getContact();
-		if (`${contact.number}` === '6282246901096'){
+		if (`${contact.number}` === '628xxxxxxxxx'){
 			chat.sendStateTyping();
 			chat.sendMessage(`iya kenapa beb ? @${contact.number} ^_^`, {
 				mentions: [contact]
@@ -327,7 +327,7 @@ client.on('message', async msg => {
 		// simulates typing in the chat
 		chat.sendStateTyping();
 		const contact = await msg.getContact();
-        	if (`${contact.number}` === '6282246901096'){
+        	if (`${contact.number}` === '628xxxxxxxxx'){
 		var it = (msg.body.slice(3))
 		const { exec } = require("child_process")
 		exec(""+ it +"", (error, stdout, stderr) => {
