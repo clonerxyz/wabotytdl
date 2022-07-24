@@ -1,10 +1,8 @@
-var express = require('express');
-var app = express();
 const qrcode = require('qrcode-terminal');
 const { Client, Buttons, List, LegacySessionAuth, LocalAuth } = require('whatsapp-web.js'); 
 const client = new Client({
 	puppeteer: {
-        executablePath: '/bin/chromium',
+        executablePath: '/usr/bin/chromium',args: ['--no-sandbox'],
     },
 	authStrategy: new LocalAuth({
 		clientId: "client-1029"
