@@ -20,4 +20,6 @@ node war.js
 
 
 thanks for : https://github.com/pedroslopez/whatsapp-web.js/releases/tag/v1.17.0
+
+
 P.S : im using arch on this project
