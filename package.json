@@ -3,6 +3,7 @@
     "child_process": "^1.0.2",
     "es": "^0.8.0",
     "express": "^4.17.3",
+    "qrcode-terminal": "^0.12.0",
     "fs": "^0.0.1-security",
     "puppeteer": "^13.7.0",
     "whatsapp-web.js": "^1.16.5"
